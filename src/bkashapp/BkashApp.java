@@ -27,8 +27,8 @@ public class BkashApp {
         }
         else System.out.println("Connection problem or invalid MMI code");
         
-        int manu = sc.nextInt();
-        switch(manu){
+        int menu = sc.nextInt();
+        switch(menu){
             case 1:
                 sendMoney();
                 break;
@@ -97,8 +97,8 @@ public class BkashApp {
             }
             System.out.println("enter input");
             
-            int manuRecharge = sc.nextInt();
-            switch(manuRecharge){
+            int menuRecharge = sc.nextInt();
+            switch(menuRecharge){
             case 1:
                 Grameenphone();
                 break;
@@ -310,8 +310,8 @@ public class BkashApp {
             }
             System.out.println("enter input");
             
-            int manuCashOut = sc.nextInt();
-            switch(manuCashOut){
+            int menuCashOut = sc.nextInt();
+            switch(menuCashOut){
             case 1:
                 fromAgent();
                 break;
@@ -368,8 +368,8 @@ public class BkashApp {
             }
             System.out.println("enter input");
             
-            int manuPayBill = sc.nextInt();
-            switch(manuPayBill){
+            int menuPayBill = sc.nextInt();
+            switch(menuPayBill){
             case 1:
                 gas();
                 break;
@@ -454,8 +454,8 @@ public class BkashApp {
             }
             System.out.println("enter input");
             
-            int manuMyBkash = sc.nextInt();
-            switch(manuMyBkash){
+            int menuMyBkash = sc.nextInt();
+            switch(menuMyBkash){
             case 1:
                 checkBalanace();
                 break;
